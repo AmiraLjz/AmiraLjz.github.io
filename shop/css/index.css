@@ -1,0 +1,48 @@
+html,body,ul,li,img,p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+    width: 200px;
+    border: 1px solid #000;
+    border-bottom: none;
+    margin: 10px
+}
+
+li img {
+    width: 100%;
+}
+
+p {
+    height: 20px;
+    border-bottom: 1px #000 dashed;
+}
+
+#wrap {
+    width: 600px;
+    height: 300px;
+    border: 1px #000 solid;
+    clear: both;	
+}
+
+.box1 {
+    float: left;
+    width: 200px;
+}
+
+.box2 {
+    float: left;
+    width: 200px;
+}
+
+.box3 {
+    float: left;
+    width: 200px;
+}
+
+#allMoney {
+    float: right;
+}
